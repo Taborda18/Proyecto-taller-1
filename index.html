@@ -14,26 +14,49 @@
    <link href='http://fonts.googleapis.com/css?family=Roboto:400,100,300,700&subset=latin,latin-ext' rel='stylesheet'
       type='text/css'>
    <link rel="stylesheet" href="css/template-style.css">
+   <link rel="stylesheet" href="owl-carousel/owl.carousel.css">
+   <link rel="stylesheet" href="owl-carousel/owl.theme.css">
    <script type="text/javascript" src="js/jquery-1.8.3.min.js"></script>
    <script type="text/javascript" src="js/jquery-ui.min.js"></script>
    <script type="text/javascript" src="js/modernizr.js"></script>
    <script type="text/javascript" src="js/responsee.js"></script>
+   <script type="text/javascript" src="owl-carousel/owl.carousel.min.js"></script>
    <!--[if lt IE 9]> 
       <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script> 
       <![endif]-->
 </head>
 
 <body class="size-1140">
+   <!-- CARRUSEL FULLSCREEN -->
+   <section id="hero-carousel" class="fullscreen-carousel">
+      <div id="carousel-principal" class="owl-carousel owl-theme">
+         <div class="item">
+            <img src="img/GUS1609-1.webp" alt="Viajeros por el mundo">
+         </div>
+         <div class="item">
+            <img src="img/Captura-de-pantalla-2025-08-29-233706.webp" alt="Aventura">
+         </div>
+         <div class="item">
+            <img src="img/Captura-de-pantalla-2025-12-10-121434.webp" alt="Cultura y viajes">
+         </div>
+         <div class="item">
+            <img src="img/BR93072.webp" alt="Explorando el mundo">
+         </div>
+      </div>
+      <div class="scroll-indicator">
+         <i class="icon-chevron-down"></i>
+      </div>
+   </section>
+
    <!-- TOP NAV WITH LOGO -->
-   <header class="margin-bottom">
+   <header id="main-header" class="sticky-header">
       <div class="line">
          <nav>
             <div class="top-nav">
-               <p class="nav-text"></p>
                <a class="logo" href="index.html">
                   Rodando por el <span>MUNDO</span>
                </a>
-               <h1>blog de viajes</h1>
+               <h1 style="color: #fff;">blog de viajes</h1>
                <ul class="top-ul right">
                   <li>
                      <a href="index.html">Blog</a>
@@ -60,23 +83,19 @@
          </nav>
       </div>
    </header>
+
    <!-- MAIN SECTION -->
    <section id="home-section" class="line">
       <div class="margin">
          <!-- ARTICLES -->
          <div class="s-12 l-12">
 
-            <!-- ARTICLE 1 -->
-            <article class="post-1 line">
-               <!-- image -->
-               <div class="s-12 l-6 post-image">
-                  <img src="img/Charly-Sinewan-Soy-Tribu-2.webp" alt="Fashion 1">
-                  </a>
-               </div>
-               <!-- text -->
-               <div class="s-12 l-5 post-text">
+            <!-- ARTICLE 1 - DESCRIPCIÓN -->
+            <article class="post-1 line" style="margin-top: 3em;">
+               <!-- Texto descriptivo -->
+               <div class="s-12 l-12 post-text" style="text-align: center; padding: 30px 20px;">
                   <a href="post-1.html">
-                     <h2>Quienes somos?</h2>
+                     <h2>¿Quiénes somos?</h2>
                   </a>
                   <p>Somos un par de viajeros apasionados por descubrir el mundo, sus culturas, sabores y paisajes.
                      Acompáñanos en esta aventura mientras exploramos nuevos destinos y compartimos nuestras
@@ -88,18 +107,20 @@
             <!-- ARTICLE 2 -->
             <article class="post-2 right-align line">
                <!-- image -->
-                  <div class="s-12 l-6 post-image">
-                  <img src="img/bg_01_1000x.webp" alt="Fashion 2">
+               <div class="s-12 l-6 post-image">
+                  <a href="Charlie.html">
+                     <img src="img/bg_01_1000x.webp" alt="Fashion 3">
+                  </a>
                </div>
                <!-- text -->
                <div class="s-12 l-5 post-text">
-                  <a href="post-2.html">
+                  <a href="Charlie.html">
                      <h2>Charlie Sinewan</h2>
                   </a>
                   <p>Si te gusta conocer el mundo por rutas poco transitadas, lejos del asfalto y las multitudes, este
                      es tu canal. Aquí encontrarás relatos de viajes de aventura, mochileros y experiencias únicas en
                      destinos sorprendentes. ven descubramos los rincones más auténticos del planeta liandola en los
-                     berenjanels. <br>EL PLAN ES QUE NO HAY PLAN 
+                     berenjanels. <br>EL PLAN ES QUE NO HAY PLAN
                   </p>
                </div>
             </article>
@@ -109,67 +130,22 @@
                <!-- image -->
                <div class="s-12 l-6 post-image">
                   <a href="post-3.html">
-                     <img src="img/post3.jpg" alt="Fashion 3">
+                     <img src="img/FOTO-QUIÉN-SOY.webp" alt="Fashion 3">
                   </a>
                </div>
                <!-- text -->
                <div class="s-12 l-5 post-text">
                   <a href="post-3.html">
-                     <h2>Nice minimalist design</h2>
+                     <h2>Soy Tribu</h2>
                   </a>
-                  <p>Lorem ipsum dolor sit amet, conse ctetuer. Duis autem vemeu iriure dolor adipiscing elit, sed diam
-                     nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat wisi enim.
-               </div>
-               <!-- date -->
-               <div class="s-12 l-1 post-date">
-                  <p class="date">04</p>
-                  <p class="month">mar</p>
-               </div>
-            </article>
+                  <p>Si te apasiona conocer el mundo por rutas donde el asfalto es una excepción y la cultura auténtica
+                     es la protagonista, este es tu canal.
 
-            <!-- ARTICLE 4 -->
-            <article class="post-4 right-align line">
-               <!-- image -->
-               <div class="s-12 l-6 post-image">
-                  <a href="post-4.html">
-                     <img src="img/post4.jpg" alt="Fashion 4">
-                  </a>
-               </div>
-               <!-- text -->
-               <div class="s-12 l-5 post-text">
-                  <a href="post-4.html">
-                     <h2>With advertising regions</h2>
-                  </a>
-                  <p>Lorem ipsum dolor sit amet, conse ctetuer. Duis autem vemeu iriure dolor adipiscing elit, sed diam
-                     nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat wisi enim.
+                     <br>Aquí encontrarás relatos de la vuelta al mundo en moto de Agustín Ostos, centrados en el vídeo
+                     documental, la fotografía social y la convivencia con las tribus que habitan nuestro planeta. Ven,
+                     descubramos las distintas caras de la humanidad a través de sus rostros y sus historias.
                </div>
                <!-- date -->
-               <div class="s-12 l-1 post-date">
-                  <p class="date">01
-                  </p>
-                  <p class="month">mar
-                  </p>
-               </div>
-            </article>
-
-            <!-- ARTICLE 5 -->
-            <article class="post-5 line">
-               <!-- text -->
-               <div class="s-12 l-11 post-text">
-                  <a href="post-5.html">
-                     <h2>And again - it's totally free!</h2>
-                  </a>
-                  <p>Lorem ipsum dolor sit amet, conse ctetuer. Duis autem vemeu iriure dolor adipiscing elit, sed diam
-                     nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim
-                     veniam</p>
-               </div>
-               <!-- date -->
-               <div class="s-12 l-1 post-date">
-                  <p class="date">27
-                  </p>
-                  <p class="month">feb
-                  </p>
-               </div>
             </article>
          </div>
       </div>
@@ -179,17 +155,48 @@
       <footer>
          <div class="s-12 l-8">
             <p>
-               Copyright 2015, Vision Design - graphic zoo<br>
-               All images is purchased from Bigstock. Do not use the image in your website.
+               Copyright 2025, Robin Taborda<br>
+               All images is purchased from Soy Tribu / Charlie Sinewan.
             </p>
          </div>
-         <div class="s-12 l-4">
-            <a class="right" href="http://www.myresponsee.com" title="Responsive framework">Design and coding<br>
-               by Responsee Team
-            </a>
-         </div>
+
       </footer>
    </div>
+
+   <!-- Script de inicialización del carrusel -->
+   <script>
+      $(document).ready(function () {
+         $("#carousel-principal").owlCarousel({
+            items: 1,
+            autoPlay: 5000,
+            navigation: false,
+            pagination: false,
+            singleItem: true,
+            slideSpeed: 300,
+            paginationSpeed: 400,
+            transitionStyle: "fade"
+         });
+
+         // Navbar compacto al hacer scroll
+         $(window).scroll(function () {
+            var scroll = $(window).scrollTop();
+            var windowHeight = $(window).height();
+
+            if (scroll >= windowHeight - 100) {
+               $('#main-header').addClass('scrolled');
+            } else {
+               $('#main-header').removeClass('scrolled');
+            }
+         });
+
+         // Smooth scroll al hacer click en el indicador
+         $('.scroll-indicator').click(function () {
+            $('html, body').animate({
+               scrollTop: $('#main-header').offset().top
+            }, 800);
+         });
+      });
+   </script>
 </body>
 
 </html>

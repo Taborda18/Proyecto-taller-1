@@ -651,11 +651,21 @@ body.charlie-page {
 	box-shadow: none;
 }
 
+.charlie-page .page-title .logo-charlie {
+	max-width: 120px;
+	height: auto;
+	display: inline-block;
+	vertical-align: middle;
+	margin-right: 20px;
+}
+
 .charlie-page .page-title h1 {
 	color: #2c3e50;
 	font-size: 3em;
 	margin: 0;
 	text-shadow: none;
+	display: inline-block;
+	vertical-align: middle;
 }
 
 .charlie-page .page-title p {
@@ -722,4 +732,22 @@ body.charlie-page {
 
 .charlie-page .content-section {
 	padding-top: 100px;
+}
+
+.charlie-page .social-links {
+	margin-top: 20px;
+	text-align: left;
+}
+
+.charlie-page .social-links a {
+	display: inline-block;
+	margin-right: 15px;
+	color: #ffd700;
+	font-size: 1.5em;
+	transition: all 0.3s ease;
+}
+
+.charlie-page .social-links a:hover {
+	color: #4a90e2;
+	transform: scale(1.2);
 }
